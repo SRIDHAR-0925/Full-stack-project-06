@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Top_row{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+}
+.head_list{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+.list_flx{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin: 5px 0 0 0;
+}
+.list_sty{
+    color: rgb(0, 140, 255);
+    cursor: pointer;
+    font-weight:bold;
+    font-size: 20px;
+}
+.list_sty:hover{
+    color: navy;
+}
+.login_btns{
+    background-color: rgb(224, 247, 252);
+    font-weight: bolder
+}
+.login_btns:hover{
+    border: 1px solid black;
+    background-color: rgb(133, 212, 226);
+}
+.corousal_row{
+    padding-top: 105px;
+}
+.about_list{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    background-color: rgb(157, 157, 157);
+    padding: 5px;
+    margin: 0 0 0 0;
+}
+.txt_sty{
+    color: white;
+    font-weight:bold;
+    cursor: pointer;
+}
+.txt_sty:hover{
+    color: navy;
+}
+.card_sty{
+    border-radius: 10px;
+}
+.img_sty{
+    border-radius: 10px 10px 0px 0px;
+}
+.card_txt_sty{
+    background-color: rgb(224, 247, 252);
+    border-radius: 0px 0px 10px 10px;
+    height: 230px;
+}
+.txt_head{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight:bolder;
+    color: black;
+    text-align: center;
+}
+.txt_para{
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.vie_txt{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    /* border: 1px solid black; */
+    margin-bottom: 20px;
+    background-color: rgb(75, 115, 209);
+}
+.vie_txt:hover{
+    font-weight: bolder;
+    border: 1px solid black;
+}
+.cent_btt{
+    display: flex;
+    justify-content: center;
+}
+.Rimg{
+    border-radius: 50%;
+    cursor: pointer;
+    /* border: 1px solid black; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.Rimg:hover{
+    box-shadow: rgb(78, 224, 243) 0px 5px 15px;
+}
+.rc_txt{
+    margin-right: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.heading_font{
+    font-weight: bold;
+}
+.arr_flx{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.arr_flx:hover{
+    text-decoration: underline 2px solid navy;
+}
+.spac_fstrow{
+    margin-top: 10px;
+}
+.crd_flx{
+    display: flex;
+}
+.ac_conf_txt{
+    padding: 10px;
+}
+.prod_btns{
+    background-color: rgb(224, 247, 252);
+    font-weight: bolder
+}
+.prod_btns:hover{
+    border: 1px solid black;
+    background-color: rgb(78, 217, 252);
+}
+.prod_btns_flx{
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+.vid_card{
+    border-radius: 10px;
+    width: 93%;
+    height: 580px;
+    margin-bottom: 15px;
+}
+.vid_border{
+    border-radius: 10px;
+}
+.marg_spac{
+    margin: 5px 5px 5px 5px;
+}
+.sub_btns{
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    margin-left: 50px;
+    background-color: rgb(78, 217, 252);
+}
+.sub_btns:hover{
+    border: 1px solid black;
+    
+}
+
+.sub_form{
+    background-color:rgb(224, 247, 252);
+}
+.crd_siz{
+    width: 900px;
+    height: 430px;
+    background-color:rgb(224, 247, 252);
+}
+.crd_padd{
+    padding: 30px;
+}
+.form_dflx{
+    display:flex;
+    justify-content: space-between;
+    /* margin-right: 0px; */
+}
+.form_con{
+    width: 400px;
+}
+.submit_btns{
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(78, 217, 252);
+    
+}
+.submit_btns:hover{
+    border: 1px solid black;
+ 
+}
+.foot{
+    padding: 25px;
+}
+.foot_list{
+    list-style: none;
+    cursor: pointer;
+}
+.txt_marg{
+    margin-left: 20px;
+}
+.sty_1:hover{
+    text-decoration: underline 2px solid navy;
+}
+.cop_ri8{
+    background-color:rgb(224, 247, 252) ;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.price_tag{
+    color: green;
+    margin-top: 5px;
+}
+.last_img{
+    border-radius: 5px;
+}
